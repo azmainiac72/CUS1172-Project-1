@@ -1,65 +1,82 @@
 <html>
     <head>
+        <link rel="stylesheet" href="mystyle.css">
+
+        <style>
+            h3 {
+        color: #00ff4c;
+            }
+
+        </style>
+
         <title>
             Project 1 - Milestone 1
         </title>
     </head>
 
     <body>
-        <h1>Project 1 - Milestone 1</h1>
+        <h1 style="color: navy; ">Project 1 - Milestone 1</h1>
 
-        <h3>Menu</h3>
-        <p>
-            <ol>
-            <li><a href="#basic_profile_info">Basic Profile Information </a></li>
-            <li><a href="#education_info">Education Summary</a></li>
-            <li><a href="#work_info">Work Experience/Internships/Projects</a></li>
-            <li><a href="#programming_info">Programming Skills</a></li>
-            <li><a href="#hobbies_info">General Interests and Hobbies</a></li>
-            <li><a href="#favorites_info">Favorite Song, Film, and TV Show</a></li>
-            <li><a href="#websites_info">Favorite Website(s)</a></li>
-            <li><a href="#projects_info">My Projects in This Course</a></li>
-            </ol>
-        </p>
+        
+        <div class="menu">
+            <h3>Menu</h3>
 
-        <a id="basic_profile_info"></a>
-        <h3>Basic Profile Information </h3>
+            <table style="">
+                <tr><td><a href="#basic_profile_info">Basic Profile Information </a></td></tr>
+                <tr><td><a href="#education_info">Education Summary</a></td></tr>
+                <tr><td><a href="#work_info">Work Experience/Internships/Projects</a></td></tr>
+                <tr><td><a href="#programming_info">Programming Skills</a></td></tr>
+                <tr><td><a href="#hobbies_info">General Interests and Hobbies</a></td></tr>
+                <tr><td><a href="#favorites_info">Favorite Song, Film, and TV Show</a></td></tr>
+                <tr><td><a href="#websites_info">Favorite Website(s)</a></td></tr>
+                <tr><td><a href="#projects_info">My Projects in This Course</a></td></tr>
 
-        <p>
-            <ul>
-                Name: Azmain Chowdhury
-                <br>
-                Major: Computer Science
-                <br>
-                Minor: N/A
-                <br>
-                Profile Picture: <br>
-                <img height="315" src="https://raw.githubusercontent.com/azmainiac72/CUS1172-Project-1/main/profile_picture.jpg" alt="Profile Picture">
+            </table>        
+        </div>
+        
 
-            </ul>
-        </p>
+        
 
-        <a id="education_info"></a>
-        <h3>Education Summary</h3>
-        <table>
+        <div class="profileinfo">
+            <a id="basic_profile_info"></a>
+            <h3>Basic Profile Information </h3>
 
-            <tr>
-                <th>Education Level</th>
-                <th>School Name</th>
-                <th>Year of Graduation</th>
-            </tr>
-            <tr>
-                <td>High School</td>
-                <td>The Bronx High School of Science</td>
-                <td>2020</td>
-            </tr>
+            <p>
+            
+                Name: Azmain Chowdhury<br>
+                Major: Computer Science<br>
+                Minor: N/A<br>
+                Profile Picture:<br>
+                <img height="315" id="automargin" src="https://raw.githubusercontent.com/azmainiac72/CUS1172-Project-1/main/profile_picture.jpg" alt="Profile Picture"> <br>
 
-            <tr>
-                <td>College</td>
-                <td>St. John's University</td>
-                <td>2024</td>
-            </tr>
-        </table>
+            </p>
+
+        </div>
+        
+
+        <div class="educationinfo">
+            <a id="education_info"></a>
+            <h3 style="background-color: rgb(141, 80, 0);">Education Summary</h3>
+            <table>
+
+                <tr>
+                    <th>Education Level</th>
+                    <th>School Name</th>
+                    <th>Year of Graduation</th>
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td>The Bronx High School of Science</td>
+                    <td>2020</td>
+                </tr>
+
+                <tr>
+                    <td>College</td>
+                    <td>St. John's University</td>
+                    <td>2024</td>
+                </tr>
+            </table>
+        </div>
 
         <a id="work_info"></a>
         <h3>Work Experience/Internships/Projects</h3>

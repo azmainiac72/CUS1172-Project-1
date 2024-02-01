@@ -1,0 +1,66 @@
+    body {
+        background-color: salmon;
+        text-align: center;
+        color: ;
+    }
+  
+    a {
+        color: white;
+    }
+ 
+    div {
+        width:100%;
+        overflow:auto;
+
+        border: 10px solid green;
+        padding: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    table {
+        text-align: center;
+    }
+
+    .menu {
+        background-color: #471AE5;
+        
+
+        float:none;
+        width:15%;
+        padding: 10px;
+
+        
+    
+    }
+
+    .profileinfo { 
+        background-color: khaki;
+
+        float:none;
+        width:25%;
+
+       
+    }
+
+    .educationinfo {
+        background-color: #471AE5;
+        
+
+        float:none;
+        width:20%;
+       
+    }
+
+
+    #automargin {
+        margin:auto; 
+    }
+
+    #float {
+
+
+    }
+
+
+<span>,<ul>,<li>, <img>, <table>, <form>, <h1>,<p>,<a>
