@@ -1,150 +1,310 @@
-body {
-    background-color: salmon;
-    text-align: center;
-    color: ;
-}
-
-a {
-    color: white;
-}
-
-div {
-    width:100%;
-    overflow:auto;
-
-    border: 10px solid green;
-    padding: auto;
-    margin: auto;
-    margin-top: 30px;
-}
-
-table, th, td {
-    text-align: center;
-    border: 1px solid;
-    border-collapse: collapse;
-
-}
-
-.menu {
-    background-color: #471AE5;
+@media (min-width:0px) and (max-width: 900px) {
+    body {
+        background-color: salmon;
+        text-align: center;
+        color: ;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    div {
+        width:100%;
+        overflow:auto;
+    
+        border: 10px solid green;
+        padding: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    table, th, td {
+        text-align: center;
+        border: 1px solid;
+        border-collapse: collapse;
+    
+    }
+    
+    .menu {
+        background-color: #471AE5;
+        
+    
+        float:none;
+        width:90%;
+        padding-bottom: 10px;
+    
+    }
+    
+    .profileinfo { 
+        background-color: khaki;
+    
+        float:none;
+        width:90%;
+    
+    }
+    
+    .educationinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:90%;
+        padding-bottom: 10px;
+    
+       
+    }
+    
+    .workinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:90%;
+       
+    }
+    
+    .progskillsinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:90%;
+        text-align: center;
+        padding-bottom: 10px;
+    
+       
+    }
+    
+    .hobbiesinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:90%;
+       
+    }
+    
+    .favoritesinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:90%;
+       
+    }
+    
+    
+    .websitesinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:90%;
+       
+    }
+    
+    .projectsinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:90%;
+       
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    
+    .nopadding {
+        padding:none;
+    }
+    
+    .noborder {
+            border:none;
+        }
+    
+    
+    .nomargin {
+        margin:0%;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+      }
+    
+    
+    #automargin {
+        margin:auto; 
+    }
+    
+    #float {
+    
+    
+    }
+    
+    
+    <span>,<ul>,<li>, <img>, <table>, <form>, <h1>,<p>,<a>
     
 
-    float:none;
-    width:15%;
-    padding-bottom: 10px;
-
-}
-
-.profileinfo { 
-    background-color: khaki;
-
-    float:none;
-    width:25%;
-
-}
-
-.educationinfo {
-    background-color: #471AE5;
-
-    float:none;
-    width:25%;
-    padding-bottom: 10px;
-
-   
-}
-
-.workinfo {
-    background-color: #471AE5;
-
-    float:none;
-    width:34%;
-   
-}
-
-.progskillsinfo {
-    background-color: #471AE5;
-
-    float:none;
-    width:15%;
-    text-align: center;
-    padding-bottom: 10px;
-
-   
-}
-
-.hobbiesinfo {
-    background-color: #471AE5;
-
-    float:none;
-    width:85%;
-   
-}
-
-.favoritesinfo {
-    background-color: #471AE5;
-
-    float:none;
-    width:80%;
-   
-}
-
-
-.websitesinfo {
-    background-color: #471AE5;
-
-    float:none;
-    width:10%;
-   
-}
-
-.projectsinfo {
-    background-color: #471AE5;
-
-    float:none;
-    width:20%;
-   
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-}
-
-
-.nopadding {
-    padding:none;
-}
-
-.noborder {
-        border:none;
-    }
-
-
-.nomargin {
-    margin:0%;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
   }
 
+  @media (min-width:901px) and (max-width: 2560px) {
 
-#automargin {
-    margin:auto; 
-}
+    body {
+        background-color: salmon;
+        text-align: center;
+        color: ;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    div {
+        width:100%;
+        overflow:auto;
+    
+        border: 10px solid green;
+        padding: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    table, th, td {
+        text-align: center;
+        border: 1px solid;
+        border-collapse: collapse;
+    
+    }
+    
+    .menu {
+        background-color: #471AE5;
+        
+    
+        float:none;
+        width:30%;
+        padding-bottom: 10px;
+    
+    }
+    
+    .profileinfo { 
+        background-color: khaki;
+    
+        float:none;
+        width:30%;
+    
+    }
+    
+    .educationinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:30%;
+        padding-bottom: 10px;
+    
+       
+    }
+    
+    .workinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:40%;
+       
+    }
+    
+    .progskillsinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:30%;
+        text-align: center;
+        padding-bottom: 10px;
+    
+       
+    }
+    
+    .hobbiesinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:85%;
+       
+    }
+    
+    .favoritesinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:80%;
+       
+    }
+    
+    
+    .websitesinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:25%;
+       
+    }
+    
+    .projectsinfo {
+        background-color: #471AE5;
+    
+        float:none;
+        width:20%;
+       
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    
+    .nopadding {
+        padding:none;
+    }
+    
+    .noborder {
+            border:none;
+        }
+    
+    
+    .nomargin {
+        margin:0%;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+      }
+    
+    
+    #automargin {
+        margin:auto; 
+    }
+    
+    #float {
+    
+    
+    }
+    
+    
+    <span>,<ul>,<li>, <img>, <table>, <form>, <h1>,<p>,<a>
 
-#float {
 
-
-}
-
-
-<span>,<ul>,<li>, <img>, <table>, <form>, <h1>,<p>,<a>
+  }
