@@ -27,7 +27,7 @@
         
 
         float:none;
-        width:15%;
+        width:20%;
         padding: 10px;
     
     }
@@ -52,7 +52,7 @@
         background-color: #471AE5;
 
         float:none;
-        width:25%;
+        width:45%;
        
     }
 
@@ -61,6 +61,7 @@
 
         float:none;
         width:25%;
+        text-align: center;
        
     }
 
@@ -68,7 +69,7 @@
         background-color: #471AE5;
 
         float:none;
-        width:25%;
+        width:35%;
        
     }
 
@@ -76,17 +77,10 @@
         background-color: #471AE5;
 
         float:none;
-        width:25%;
+        width:80%;
        
     }
 
-    .favoritesinfo {
-        background-color: #471AE5;
-
-        float:none;
-        width:25%;
-       
-    }
 
     .websitesinfo {
         background-color: #471AE5;
@@ -104,9 +98,26 @@
        
     }
 
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
 
 
+    .nopadding {
+        padding:none;
+    }
 
+    .noborder {
+        border:none;
+    }
 
 
     #automargin {
