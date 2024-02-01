@@ -1,133 +1,150 @@
-    body {
-        background-color: salmon;
-        text-align: center;
-        color: ;
-    }
-  
-    a {
-        color: white;
-    }
- 
-    div {
-        width:100%;
-        overflow:auto;
+body {
+    background-color: salmon;
+    text-align: center;
+    color: ;
+}
 
-        border: 10px solid green;
-        padding: auto;
-        margin: auto;
-        margin-top: 30px;
-    }
+a {
+    color: white;
+}
 
-    table {
-        text-align: center;
-    }
+div {
+    width:100%;
+    overflow:auto;
 
-    .menu {
-        background-color: #471AE5;
-        
+    border: 10px solid green;
+    padding: auto;
+    margin: auto;
+    margin-top: 30px;
+}
 
-        float:none;
-        width:20%;
-        padding: 10px;
+table, th, td {
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+
+.menu {
+    background-color: #471AE5;
     
-    }
 
-    .profileinfo { 
-        background-color: khaki;
+    float:none;
+    width:15%;
+    padding-bottom: 10px;
 
-        float:none;
-        width:25%;
+}
 
-    }
+.profileinfo { 
+    background-color: khaki;
 
-    .educationinfo {
-        background-color: #471AE5;
+    float:none;
+    width:25%;
 
-        float:none;
-        width:25%;
-       
-    }
+}
 
-    .workinfo {
-        background-color: #471AE5;
+.educationinfo {
+    background-color: #471AE5;
 
-        float:none;
-        width:45%;
-       
-    }
+    float:none;
+    width:25%;
+    padding-bottom: 10px;
 
-    .progskillsinfo {
-        background-color: #471AE5;
+   
+}
 
-        float:none;
-        width:25%;
-        text-align: center;
-       
-    }
+.workinfo {
+    background-color: #471AE5;
 
-    .hobbiesinfo {
-        background-color: #471AE5;
+    float:none;
+    width:34%;
+   
+}
 
-        float:none;
-        width:35%;
-       
-    }
+.progskillsinfo {
+    background-color: #471AE5;
 
-    .favoritesinfo {
-        background-color: #471AE5;
+    float:none;
+    width:15%;
+    text-align: center;
+    padding-bottom: 10px;
 
-        float:none;
-        width:80%;
-       
-    }
+   
+}
 
+.hobbiesinfo {
+    background-color: #471AE5;
 
-    .websitesinfo {
-        background-color: #471AE5;
+    float:none;
+    width:85%;
+   
+}
 
-        float:none;
-        width:25%;
-       
-    }
+.favoritesinfo {
+    background-color: #471AE5;
 
-    .projectsinfo {
-        background-color: #471AE5;
-
-        float:none;
-        width:25%;
-       
-    }
-
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .left {
-        display: flex;
-        justify-content: left;
-        align-items: left;
-    }
+    float:none;
+    width:80%;
+   
+}
 
 
-    .nopadding {
-        padding:none;
-    }
+.websitesinfo {
+    background-color: #471AE5;
 
-    .noborder {
+    float:none;
+    width:10%;
+   
+}
+
+.projectsinfo {
+    background-color: #471AE5;
+
+    float:none;
+    width:20%;
+   
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+
+.nopadding {
+    padding:none;
+}
+
+.noborder {
         border:none;
     }
 
 
-    #automargin {
-        margin:auto; 
-    }
+.nomargin {
+    margin:0%;
+}
 
-    #float {
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
 
 
-    }
+#automargin {
+    margin:auto; 
+}
+
+#float {
+
+
+}
 
 
 <span>,<ul>,<li>, <img>, <table>, <form>, <h1>,<p>,<a>
