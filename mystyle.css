@@ -1,4 +1,4 @@
-@media (min-width:0px) and (max-width: 900px) {
+@media ((min-width:0px) and (max-width: 900px)) or ((min-width:2561px)) {
     body {
         background-color: salmon;
         text-align: center;
