@@ -2,18 +2,18 @@
     body {
         background-color: salmon;
         text-align: center;
-        color: ;
+        color: #FAFAFF;
     }
     
     a {
-        color: white;
+        color: #2BC016;
     }
     
     div {
         width:100%;
         overflow:auto;
     
-        border: 10px solid green;
+        border: 10px solid #2F0A28;
         padding: auto;
         margin: auto;
         margin-top: 30px;
@@ -27,7 +27,7 @@
     }
     
     .menu {
-        background-color: #471AE5;
+        background-color: #6564DB;
         
     
         float:none;
@@ -37,7 +37,7 @@
     }
     
     .profileinfo { 
-        background-color: khaki;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -45,7 +45,7 @@
     }
     
     .educationinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -55,7 +55,7 @@
     }
     
     .workinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -63,7 +63,7 @@
     }
     
     .progskillsinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -74,7 +74,7 @@
     }
     
     .hobbiesinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -82,7 +82,7 @@
     }
     
     .favoritesinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -91,7 +91,7 @@
     
     
     .websitesinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -99,7 +99,7 @@
     }
     
     .projectsinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:90%;
@@ -149,7 +149,7 @@
     
     
     <span>,<ul>,<li>, <img>, <table>, <form>, <h1>,<p>,<a>
-    
+
 
   }
 
@@ -158,18 +158,18 @@
     body {
         background-color: salmon;
         text-align: center;
-        color: ;
+        color: #FAFAFF;
     }
     
     a {
-        color: white;
+        color: #2BC016;
     }
     
     div {
         width:100%;
         overflow:auto;
     
-        border: 10px solid green;
+        border: 10px solid #2F0A28;
         padding: auto;
         margin: auto;
         margin-top: 30px;
@@ -183,7 +183,7 @@
     }
     
     .menu {
-        background-color: #471AE5;
+        background-color: #6564DB;
         
     
         float:none;
@@ -193,7 +193,7 @@
     }
     
     .profileinfo { 
-        background-color: khaki;
+        background-color: #6564DB;
     
         float:none;
         width:30%;
@@ -201,7 +201,7 @@
     }
     
     .educationinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:30%;
@@ -211,7 +211,7 @@
     }
     
     .workinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:40%;
@@ -219,7 +219,7 @@
     }
     
     .progskillsinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:30%;
@@ -230,7 +230,7 @@
     }
     
     .hobbiesinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:85%;
@@ -238,7 +238,7 @@
     }
     
     .favoritesinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:80%;
@@ -247,7 +247,7 @@
     
     
     .websitesinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:25%;
@@ -255,7 +255,7 @@
     }
     
     .projectsinfo {
-        background-color: #471AE5;
+        background-color: #6564DB;
     
         float:none;
         width:20%;
