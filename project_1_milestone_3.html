@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="swag.css">
+
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -15,69 +17,46 @@
         Project 1 - Milestone 3
     </title>
 
-    <style>
-        body {
-            backgroundcolor: salmon;
-        }
-
-        
-
-        purple {
-            background-color: #6564DB;
-
-        }
-
-        /* Make the image fully responsive */
-        fcarousel-inner img {
-            width: 100%;
-            height: 100%;
-        }
-
-    </style>
-
 
   </head>
 
 <body>
 
-    <h1 style="color: #2F0A28; text-align: center;">Project 1 - Milestone 3</h1>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+        <a class="navbar-brand" href="#">Project 1 - Milestone 3</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#basic_profile_info">Profile Information</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education_info">Education Summary</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#work_info">Work Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#programming_info">Programming Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#hobbies_info">Interests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#favorites_info">Favorite Media</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#websites_info">Favorite Websites</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects_info">Projects in this Course</a>
+            </li>
+          
+        </ul>
+      </nav>
 
-    
-    <div class="container-fluid" style="">
 
-        <h4 style="text-align: center;">Menu</h4>
-        <div class="row">
-            <div class="col-md" > 
-                <button type="button" class="btn btn-block btn-link"> <a href="#basic_profile_info">Basic Profile Information </a> </button>
-            </div>
-            <div class="col-md" >
-                <button type="button" class="btn btn-block btn-link"> <a href="#education_info">Education Summary</a> </button>
-            </div>
-            <div class="col-md" > 
-                <button type="button" class="btn btn-block btn-link"> <a href="#work_info">Work Experience/Internships/Projects</a> </button>
-            </div>
-            <div class="col-md"> 
-                <button type="button" class="btn btn-block btn-link"> <a href="#programming_info">Programming Skills</a> </button>
-            </div>
-            <div class="col-md"> 
-                <button type="button" class="btn btn-block btn-link"> <a href="#hobbies_info">General Interests and Hobbies</a> </button>
-            </div>
-            <div class="col-md"> 
-                <button type="button" class="btn btn-block btn-link"> <a href="#favorites_info">Favorite Song, Film, and TV Show</a> </button>
-            </div>
-            <div class="col-md" > 
-                <button type="button" class="btn btn-block btn-link"> <a href="#websites_info">Favorite Website(s)</a> </button>
-            </div>
-            <div class="col-md"> 
-                <button type="button" class="btn btn-block btn-link"> <a href="#projects_info">My Projects in This Course</a> </button>
-            </div>
-    
-        </div>
-    </div>
-
-    <div class="container p-3 my-3 purple" style="margin-left: auto; margin-right: auto;">
-        <div class="card" style="width:400px; margin-left: auto; margin-right: auto;" >
-            <div class="card-header" style="text-align: center;"> <a id="basic_profile_info"></a> <h5> Profile Information </h5></div>
+    <div class="container p-3 my-3" style="margin-left: auto; margin-right: auto;">
+        <div class="card shmancy purple whitetext" style="width:400px; margin-left: auto; margin-right: auto;" >
+            <div class="card-header" style="text-align: center;"> <a id="basic_profile_info"></a> <h4> Profile Information </h4></div>
             <img class="card-img-top" style="width: 90%; margin:auto; margin-top: 20px;" src="https://raw.githubusercontent.com/azmainiac72/CUS1172-Project-1/main/profile_picture1.jpg" alt="Profile Picture">
             <div class="card-body">
                 <h5 class="card-title">Azmain Chowdhury</h5>
@@ -87,26 +66,20 @@
                     <br>
 
                 </p>
-                
-                <div class="container">
-                    <a href="#" class="btn btn-primary" >See Profile</a>
-                    <a href="#" class="btn btn-primary" >See Profile</a>
-                    <a href="#" class="btn btn-primary" >See Profile</a>
-                </div>
 
             </div>
         </div>
     </div>
 
 
-    <div class="container p-3 my-3 purple" style="margin-left: auto; margin-right: auto;">
-        <h4 style="text-align: center;"> <a id="education_info"></a> Education Summary</h4>
+    <div class="container shmancy purple p-3 my-3" style="margin-left: auto; margin-right: auto;">
+        <h4 class="" style="text-align: center;"> <a id="education_info"></a> Education Summary</h4>
 
 
         <div class="row">
             <div class="col-2"></div>
             <div class="col-md-8">
-                <table class="table table-bordered table-hover table-striped" style="text-align: center;">
+                <table class="table table-bordered table-hover table-striped tealbackground whitetext" style="text-align: center;">
                     <thead class="">
                     <tr>
                         <th>Education Level</th>
@@ -138,7 +111,7 @@
 
     </div>
 
-    <div class="container p-3 my-3 purple" style="margin-left: auto; margin-right: auto;">
+    <div class="container p-3 my-3 purple shmancy whitetext" style="margin-left: auto; margin-right: auto;">
 
         <h4 style="text-align: center;"> <a id="work_info"></a> Work Experience/Internships/Projects</h4>
 
@@ -169,14 +142,14 @@
     </div>
 
 
-    <div class="container p-3 my-3" style="margin-left: auto; margin-right: auto;">
+    <div class="container p-3 my-3 shmancy purple" style="margin-left: auto; margin-right: auto;">
 
         <h4 style="text-align: center;"> <a id="programming_info"> </a>Programming Skills</h4>
 
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4">
-                <table class="table table-bordered table-hover table-striped purple" style="text-align: center;">
+            <div class="col"></div>
+            <div class="col">
+                <table class="table table-bordered table-hover table-striped tealbackground whitetext" style="text-align: center;">
                     <thead class="">
                     <tr>
                         <th>Programming Language</th>
@@ -205,14 +178,14 @@
 
                 </table>
             </div>
-            <div class="col-4"></div>
+            <div class="col"></div>
         </div>
 
 
     </div>
 
 
-    <div class="container-fluid p-3 my-3 purple" style="margin-left: auto; margin-right: auto;">
+    <div class="container-fluid p-3 my-3 purple shmancy whitetext" style="margin-left: auto; margin-right: auto;">
 
         <h4 style="text-align: center;"> <a id="hobbies_info"></a>Interests and Hobbies</h4>
 
@@ -221,7 +194,7 @@
                 <p>
 
                         <div class="col">
-                            <img width="100%" src="https://m.media-amazon.com/images/M/MV5BYzI0YjYxY2UtNzRjNS00NTZiLTgzMDItNGEzMjU5MmE0ZWJmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg">
+                            <img width="100%" src="https://gmufourthestate.com/files/2019/11/watching-anime_fourth-estate_vijay-iyer.jpg">
                             <li>watching anime</li>
                         </div>
 
@@ -229,7 +202,7 @@
 
                         <div class="col">
 
-                            <img width="100%" src="https://m.media-amazon.com/images/I/71lnvXSiITL._AC_UF1000,1000_QL80_.jpg"> 
+                            <img width="100%" src="https://online.merrimack.edu/wp-content/uploads/2019/05/MCMED_5-Reasons-REading-is-So-Important-to-Student-Success.jpg"> 
                             <li>reading manga</li>
 
                         </div>
@@ -237,7 +210,7 @@
 
                         <div class="col">
 
-                            <img width="100%" src="https://usishield.com/wp-content/uploads/2023/03/mL1584_1024x1024.jpg">
+                            <img width="100%" src="https://t3.ftcdn.net/jpg/02/85/90/44/360_F_285904463_52tKiXp592qUhmg24eS3f4k1kGQSji3f.jpg">
                             <li>playing video games</li>
 
                         </div>
@@ -267,7 +240,7 @@
     </div>
 
 
-    <div class="container-fluid p-3 my-3 border purple" style="margin-left: auto; margin-right: auto;">
+    <div class="container-fluid p-3 my-3 purple shmancy whitetext" style="margin-left: auto; margin-right: auto;">
  
         <h4 style="text-align: center;"> <a id="favorites_info"> </a>Favorites</h4>
 
@@ -303,15 +276,111 @@
                         <h5>Favorite Anime</h5>
 
                         <div class="row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <div id="demo" class="carousel slide shmancy" data-ride="carousel">
+                                    <ul class="carousel-indicators">
+                                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#demo" data-slide-to="1"></li>
+                                        <li data-target="#demo" data-slide-to="2"></li>
+                                        <li data-target="#demo" data-slide-to="3"></li>
+                                        <li data-target="#demo" data-slide-to="4"></li>
+                                        <li data-target="#demo" data-slide-to="5"></li>
+                                        <li data-target="#demo" data-slide-to="6"></li>
+                                        <li data-target="#demo" data-slide-to="7"></li>
+                                        <li data-target="#demo" data-slide-to="8"></li>
 
-                            <div class="col">  </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
+                                    </ul>
+
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BN2NlM2Y5Y2MtYjU5Mi00ZjZiLWFjNjMtZDNiYzJlMjhkOWZiXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_FMjpg_UX640_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Re:Zero</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BMTQ0MGI4NTgtZTlkNy00YTU5LThjM2ItNDczMGFlZWY2ZWM3XkEyXkFqcGdeQXVyMTM3NDc1OTM2._V1_FMjpg_UY2222_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Cyberpunk: Edgerunners</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BY2JhZThjMjAtMjA5Yi00ZTIxLTljODctZDgxMzdlMzA2YjllXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX640_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>DanMachi</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+                                    
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BMGM2MzA5YzYtODc0Ni00ZjU4LWI4ZmUtZGJjNGU0ODY1MGJkXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UY3000_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Mushoku Tensei</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BNGM0YTk3MWEtN2JlZC00ZmZmLWIwMDktZTMxZGE5Zjc2MGExXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Hunter x Hunter (2011)</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
 
 
-                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BMTRlYThlZjUtZjM4OS00YmIzLTkwODItZGQ3YzcwMzI1YWIzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UY3000_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Fate/Zero</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BNjRiNmNjMmMtN2U2Yi00ODgxLTk3OTMtMmI1MTI1NjYyZTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Death Note</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Fullmetal Alchemist: Brotherhood</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BYzI0YjYxY2UtNzRjNS00NTZiLTgzMDItNGEzMjU5MmE0ZWJmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UY3000_.jpg" alt="" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>Dragon Ball</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                </div>
+                                                        
+                                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" style="color: coral;"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                </div>
+                            </div>
+                                <div class="col"></div>
+
+                            </div>
+
 
                     </div>
 
@@ -319,13 +388,41 @@
                         <h5>Favorite Manga</h5>
 
                         <div class="row">
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/801513ba-a712-498c-8f57-cae55b38cc92/618fec71-9b45-4cc9-a66d-fecfd78d43cd.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/a1c7c817-4e59-43b7-9365-09675a149a6f/2f4aca53-64c7-46ac-ae85-3bc9b3169890.png"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/5923081c-ad82-4a8b-a509-89ebe752db01/6ec7afc2-b275-4253-bb70-818e7244d822.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/d08a69ee-9f90-439a-b17d-da561eda2c66/4b9bdc2c-23f8-46ac-85ad-67e573760dd0.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/db692d58-4b13-4174-ae8c-30c515c0689c/0da5d17e-99fc-4dc6-8f0d-08a52aef5aa0.jpg"></div>
+                        </div>
 
+                        <div class="row"> <br> </div>
 
+                        <div class="row">
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/4481002b-f65c-426a-8cb4-3a1bba1040c5/685ed198-fbc2-48a4-8220-69ae79206491.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/1044287a-73df-48d0-b0b2-5327f32dd651/21ca5d3f-95e3-4fdf-af19-bff65adf1c89.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/0ee2f134-87c6-4715-b31e-b3b1344fa5ea/390099a6-5e32-4f6a-afee-5d89de3d0454.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/6a1d1cb1-ecd5-40d9-89ff-9d88e40b136b/040e8ae9-4ddd-49d2-8986-56782b391714.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/8847f905-550d-4fe6-bcda-ac2b896789c7/1afa7560-313b-4a5a-8eea-a70d1d909c45.png"></div>
+                        </div>
+
+                        <div class="row"> <br> </div>
+
+                        <div class="row">
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/6fef1f74-a0ad-4f0d-99db-d32a7cd24098/77a96a5c-c91c-4eb9-b441-31edc9ce67b6.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/d8de5f5f-692d-4d8f-9275-2d8cb98b702b/da14bb9f-9cc4-4be0-bdc7-d06727b8dae1.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/73d70237-b7c4-4350-ae11-fd09a103f84a/1d540f97-7d87-4535-b50f-808389ef63f4.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/bb3cfc51-d0f8-483d-95fd-fd08f7ddf269/68a35a0c-b228-4e49-b154-79f6c80bd3cd.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/cb77e4a6-3921-43b9-9d64-7d78cd3205ce/3a8e86f3-0b9a-422f-bae9-4ffbb6eaf55b.jpg"></div>
+                        </div>
+
+                        <div class="row"> <br> </div>
+
+                        <div class="row">
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/a77742b1-befd-49a4-bff5-1ad4e6b0ef7b/9fbe8b0d-12a5-4a16-a99e-123268d910b9.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/c52b2ce3-7f95-469c-96b0-479524fb7a1a/40dfaef9-0360-4086-b0d2-d655579bf1d0.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/e7eabe96-aa17-476f-b431-2497d5e9d060/9312d801-5516-469e-8f47-33c5781d3ce4.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/40bc649f-7b49-4645-859e-6cd94136e722/14cdb0b3-d256-41af-b080-2a21c89e5036.jpg"></div>
+                            <div class="col"> <img width="100%" src="https://mangadex.org/covers/f2e91f99-6c3b-4a66-a3f7-9da13f68c416/a433eff2-a845-44db-a73f-9c1a5da2c665.jpg"></div>
                         </div>
 
                     </div>
@@ -366,19 +463,23 @@
                     <div id="moviesshows" class="container tab-pane fade"><br>
                         <h5>Favorite Movies and TV Shows</h5>
 
-
                         <div class="row">
                             <div class="col"></div>
                             <div class="col">
-                                <div id="demo" class="carousel slide" data-ride="carousel">
+                                <div id="demo1" class="carousel slide" data-ride="carousel">
                                     <ul class="carousel-indicators">
-                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo" data-slide-to="1"></li>
-                                    <li data-target="#demo" data-slide-to="2"></li>
+                                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#demo" data-slide-to="1"></li>
+                                        <li data-target="#demo" data-slide-to="2"></li>
+                                        <li data-target="#demo" data-slide-to="3"></li>
+                                        <li data-target="#demo" data-slide-to="4"></li>
+                                        <li data-target="#demo" data-slide-to="5"></li>
+
                                     </ul>
+
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8696131_b_h10_aa.jpg" alt="Breaking Bad" height="500px">
+                                            <img src="https://cms.giggster.com/guide/directus/assets/3851b4ff-c488-4c65-8db7-bb621db908c9?fit=cover&width=400&quality=80" alt="Breaking Bad" height="500px">
                                             <div class="carousel-caption">
                                             <h3>Breaking Bad</h3>
                                             <p></p>
@@ -394,18 +495,44 @@
                                         </div>
 
                                         <div class="carousel-item">
-                                            <img src="ny.jpg" alt="New York" width="1100" height="500">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UY1929_.jpg" alt="Spider-Man: Across the Spider-Verse" height="500">
                                             <div class="carousel-caption">
-                                            <h3>Insert more movies here</h3>
+                                            <h3>Spider-Man: Across the Spider-Verse</h3>
                                             <p></p>
                                             </div>   
                                         </div>
-                                    </div>
+                                    
 
-                                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX800_.jpg" alt="The Thing (1982)" height="500px">
+                                            <div class="carousel-caption">
+                                            <h3>The Thing (1982)</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BZGUyNzM0M2EtMjA1Zi00MWJhLWI2ZWEtNzE3OTgyMTBkN2IzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1080_.jpg" alt="The Boys" height="500">
+                                            <div class="carousel-caption">
+                                            <h3>The Boys</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+
+
+                                        <div class="carousel-item">
+                                            <img src="https://m.media-amazon.com/images/M/MV5BN2Q1NWExNzEtM2M1Ny00ZDJhLWIwN2MtZGI5ZGI4MzBlYTQyXkEyXkFqcGdeQXVyOTYyMTY2NzQ@._V1_FMjpg_UX1080_.jpg" alt="Invincible" height="500">
+                                            <div class="carousel-caption">
+                                            <h3>Invincible</h3>
+                                            <p></p>
+                                            </div>   
+                                        </div>
+                                    </div>                          
+
+                                    <a class="carousel-control-prev" href="#demo1" data-slide="prev">
                                     <span class="carousel-control-prev-icon"></span>
                                     </a>
-                                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <a class="carousel-control-next" href="#demo1" data-slide="next">
                                     <span class="carousel-control-next-icon"></span>
                                     </a>
                                 </div>
@@ -418,13 +545,30 @@
                     <div id="songs" class="container tab-pane fade"><br>
                         <h5>Favorite Songs</h5>
 
-                        <div class="row">
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
-                            <div class="col"> </div>
 
+
+
+
+                        <div class="row">
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/2JMKTeqZuTEL25TbWaEKO9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/4qGIDXt9vnhjG3xLZYCfOm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/6aUiLphVsi9ZIjpt3kRuEm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                        </div>
+
+                        <div class="row"> <br> </div>
+
+                        <div class="row">
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/54bm2e3tk8cliUz3VSdCPZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/7CAbF0By0Fpnbiu6Xn5ZF7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/33mardSNQyJbjwSBMNG1En?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                        </div>
+
+                        <div class="row"> <br> </div>
+
+                        <div class="row">
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/5XJh3VbvvnGYrkubcQwzys?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/22EHB5z2GwYNPA1wZ3LtL4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+                            <div class="col-lg"> <iframe style="border-radius:6px" src="https://open.spotify.com/embed/track/5C7cFiBMuVRofB4yP0vM0g?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
                         </div>
 
                     </div>
@@ -440,15 +584,43 @@
     </div>
 
 
-    <div class="container p-3 my-3 border purple" style="margin-left: auto; margin-right: auto;">
+    <div class="container p-3 my-3 purple shmancy" style="margin-left: auto; margin-right: auto;">
 
         <h4 style="text-align: center;"> <a id="websites_info"></a> Favorite Websites</h4>
+
+        <div class="row">
+            <div class="col"></div>
+
+            <div class="col">
+                <p style="text-align: center;">
+                    <a href="https://youtube.com">Youtube</a> <br>
+                </p>
+            </div>
+
+            <div class="col">
+                <p style="text-align: center;">
+                    <a href="https://spotify.com">Spotify</a> <br>
+                </p>
+            </div>
+
+            <div class="col">
+                <p style="text-align: center;">
+                    <a href="https://github.com">Github</a> <br>
+                </p>
+            </div>
+
+            <div class="col"></div>
+
+
+
+
+        </div>
 
 
     </div>
 
 
-    <div class="container p-3 my-3 purple" style="margin-left: auto; margin-right: auto;">
+    <div class="container p-3 my-3 purple shmancy" style="margin-left: auto; margin-right: auto; margin-bottom: auto;">
 
         <h4 style="text-align: center;"> <a id="projects_info"></a> My Projects in this Course</h4>
 
@@ -459,6 +631,8 @@
                     <a href="https://github.com/azmainiac72/CUS1172-Project-1">Project 1- Repository</a> <br>
                     <a href="https://azmainiac72.github.io/CUS1172-Project-1/project_1_milestone_1.html">Project 1- Milestone 1</a> <br>
                     <a href="https://azmainiac72.github.io/CUS1172-Project-1/project_1_milestone_2.html">Project 1- Milestone 2</a> <br>
+                    <a href="https://azmainiac72.github.io/CUS1172-Project-1/project_1_milestone_3.html">Project 1- Milestone 3</a>
+                
 
                 </p>
             </div>
@@ -469,29 +643,6 @@
         </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-    <div class="container p-3 my-3 bg-primary text-white">
-        <h1>Test Header (static)</h1>
-        <p>example text</p>
-
-    </div>
-
-    <div class="container-fluid p-3 my-3 bg-primary text-white">
-        <h1>Test Header (fluid)</h1>
-        <p>example text</p>
-
-    </div>
-
-
-
 
 </body>
 

@@ -1,0 +1,66 @@
+        body {
+            background-color: salmon;
+            
+        }
+
+        .whitetext {
+            color: #FAFAFF;
+
+        }
+
+        a {
+            color: #2BC016;
+        }
+
+        .purple {
+            background-color: #6564DB;
+        }
+
+        .tealbackground {
+            background-color:darkslategrey
+        }
+
+        .shmancy {
+            width:100%;
+            overflow:auto;
+        
+            border: 10px solid #2F0A28;
+            padding: auto;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .nopadding {
+            padding:none;
+        }
+        
+        .noborder {
+                border:none;
+            }
+        
+        
+        .nomargin {
+            margin:0%;
+        }
+
+        h3 {
+            color:rgba(43, 255, 0, 0);
+            background-color:#00000000;
+            
+        }
+
+        h4 {
+            color: #7dfff4;
+            background-color:none;
+        }
+
+        h5 {
+            color: white
+        }
+
+
+        /* Make the image fully responsive */
+        fcarousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
